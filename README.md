@@ -1,7 +1,7 @@
 # Nix-Shell LazyVim
 > [!WARNING]
-> This setup uses the regular config directory for vim.
-> It will overwrite your existing nvim config and make it unusable.
+> Do not use this with an existing nvim config as it will overwrite your existing nvim config and make it unusable.
+
 This is a quick way to try out LazyVim. Just check out the repository and type `nix-shell`.
 
 Install new languages for tree-sitter with `:TSInstall <language>` but prefer tree-sitter.lua.
