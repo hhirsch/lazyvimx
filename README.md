@@ -5,6 +5,8 @@
 This is a quick way to try out LazyVim. Just check out the repository and type `nix-shell`.
 
 Bring up a floating terminal with Ctrl+t.
+If you are on any keyboard layout other than Neo 2. Please delete keymaps.lua.
+By default navigation keys will be mapped to ae for left and right and nr for up and down.
 
 Install new languages for tree-sitter with `:TSInstall <language>` but prefer tree-sitter.lua.
 Install new linters and lsps with `:Mason` but prefer to add them to lsp-config.lua included in this repository.
