@@ -6,7 +6,7 @@ vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
 })
 
 -- Show diagnostic on hold
-vim.o.updatetime = 250
+vim.o.updatetime = 2000
 vim.cmd([[
   autocmd CursorHold * lua vim.diagnostic.setloclist({open_loclist = true})
 ]])
